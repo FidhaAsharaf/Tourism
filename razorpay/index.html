@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Razorpay Payment</title>
+</head>
+<body>
+
+<form method="post" action="charge.php">
+    <label for="amount">Amount:</label>
+    <input type="text" name="amount" id="amount" />
+
+    <label for="receipt">Receipt:</label>
+    <input type="text" name="receipt" id="receipt" />
+
+    <label for="currency">Currency:</label>
+    <input type="text" name="currency" id="currency" value="INR" />
+
+    <input type="submit" value="Pay with Razorpay" />
+</form>
+
+</body>
+</html>
